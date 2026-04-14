@@ -21,7 +21,11 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
-    "stepDefinitions": "cypress/stepdefinitions/**/*.js"
+    "stepDefinitions": "cypress/stepdefinitions/**/*.js",
+    "json": {
+      "enabled": true,
+      "output": "cucumber-report/cucumber.json"
+    }
   },
   "main": "cypress.config.js",
   "keywords": [],
