@@ -80,3 +80,6 @@ When("el usuario agrega el ticket", () => {
 Then("el formulario de solicitud fue completado correctamente", () => {
   page.formularioCompletado();
 });
+
+
+//Cambio 
