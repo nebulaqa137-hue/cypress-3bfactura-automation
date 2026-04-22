@@ -82,4 +82,4 @@ Cypress.Commands.add("pickDate", (dateString) => {
     .click({ force: true });
   cy.log(`Día seleccionado: ${day}`);
 });
-//Prueba devscop
+//Prueba devscop uodate git a
