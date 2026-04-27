@@ -2,11 +2,8 @@
 
 Migración de Selenium (Java/Cucumber/Allure) → **Cypress 13 + Cucumber + Allure**
 
----
-
 ## Estructura de carpetas
 
-```
 cypress-3bfactura/
 ├── cypress/
 │   ├── hooks/
