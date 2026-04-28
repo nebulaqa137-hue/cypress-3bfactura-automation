@@ -67,4 +67,4 @@ class BasePage {
 }
 
 export default BasePage;
-//Agregar comentario nuevo nuevos reportes allkure
+//Agregar comentario nuevo nuevos reportes allkure ALLURE 
