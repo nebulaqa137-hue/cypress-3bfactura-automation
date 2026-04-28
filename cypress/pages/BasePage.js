@@ -67,4 +67,4 @@ class BasePage {
 }
 
 export default BasePage;
-//Agregar comentario 
+//Agregar comentario nuevo 
