@@ -1,0 +1,36 @@
+{
+  "name": "cypress-3bfactura",
+  "version": "1.0.0",
+  "description": "Automatización Cypress — Portal de Facturación 3B",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:allure": "cypress run && npm run allure:generate",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results",
+    "test": "npm run cy:run:allure"
+  },
+  "devDependencies": {
+"@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "2.2.5",
+    "allure-cypress": "3.2.0",
+    "allure-js-commons": "3.2.0",
+    "cypress": "^15.13.1",
+    "esbuild": "0.25.0" 
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/stepdefinitions/**/*.js",
+    "json": {
+      "enabled": true,
+      "output": "cucumber-report/cucumber.json"
+    }
+  },
+  "main": "cypress.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
+

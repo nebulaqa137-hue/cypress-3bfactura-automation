@@ -1,0 +1,30 @@
+{
+  "persona_fisica": {
+    "rfc": "XAXX010101000",
+    "nombre": "JUAN PEREZ GARCIA",
+    "cfdi": "Gastos en general",
+    "regimenFiscal": "Personas Físicas con Actividades Empresariales",
+    "cp": "06600",
+    "correo": "juan.perez@email.com",
+    "correo2": "juan.perez@email.com",
+    "sucursal": "0001",
+    "ticket": "123456",
+    "caja": "1",
+    "importe": "350.00",
+    "fecha": "2024/06/15"
+  },
+  "persona_moral": {
+    "rfc": "AAA010101AAA",
+    "nombre": "EMPRESA DEMO SA DE CV",
+    "cfdi": "Adquisición de mercancias",
+    "regimenFiscal": "General de Ley Personas Morales",
+    "cp": "11000",
+    "correo": "facturacion@empresa.com",
+    "correo2": "facturacion@empresa.com",
+    "sucursal": "0025",
+    "ticket": "789012",
+    "caja": "3",
+    "importe": "1200.50",
+    "fecha": "2024/06/12"
+  }
+}
